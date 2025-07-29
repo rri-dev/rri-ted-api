@@ -41,7 +41,6 @@ export const getOpportunities = async (req: AuthRequest, res: Response): Promise
         o.sfid,
         o.name,
         o.accountid,
-        o.account_email__c,
         o.closedate,
         o.amount,
         o.stagename,

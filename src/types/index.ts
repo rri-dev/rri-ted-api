@@ -2,7 +2,6 @@ export interface Opportunity {
   sfid: string;
   name: string;
   accountid: string;
-  account_email__c: string;
   closedate: string;
   amount: number;
   stagename: string;
