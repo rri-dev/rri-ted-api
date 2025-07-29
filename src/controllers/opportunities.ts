@@ -73,6 +73,7 @@ export const getOpportunities = async (req: AuthRequest, res: Response): Promise
         AND oli.productcode = $3
         AND o.isdeleted = false
         AND oli.isdeleted = false
+        AND o.amount > 0
       ORDER BY o.closedate DESC
       LIMIT $4 OFFSET $5
     `;
