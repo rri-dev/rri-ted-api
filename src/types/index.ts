@@ -11,6 +11,17 @@ export interface Opportunity {
   total_price__c: number;
   total_payments__c: number;
   remaining_balance__c: number;
+  shipping_address1__c: string | null;
+  shipping_address2__c: string | null;
+  shipping_address3__c: string | null;
+  shipping_city__c: string | null;
+  shipping_state__c: string | null;
+  shipping_zip_postal__c: string | null;
+  shippingcountry__c: string | null;
+  shipping_email__c: string | null;
+  shipping_phone__c: string | null;
+  shipping_method__c: string | null;
+  shipping_charge__c: number | null;
   firstname: string | null;
   lastname: string | null;
   personemail: string | null;
