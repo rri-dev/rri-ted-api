@@ -34,3 +34,8 @@ coverage/
 *.tmp
 *.temp
 .cache/
+
+# Postman files
+*.postman_collection.json
+*.postman_environment.json
+POSTMAN_README.md
